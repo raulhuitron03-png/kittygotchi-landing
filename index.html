@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>kittygotchi — a tiny cozy cat that lives in your browser</title>
+  <meta name="description" content="kittygotchi wanders around while you work, naps when you're idle, and begs for fish when hungry. free chrome extension." />
+  <meta property="og:title" content="kittygotchi 🐱" />
+  <meta property="og:description" content="a tiny cozy cat that lives in your browser" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── Nav ──────────────────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="nav-logo">kittygotchi 🐱</a>
+      <div class="nav-links">
+        <a href="https://ko-fi.com/kittygotchi" target="_blank" rel="noopener" class="nav-kofi">
+          support on ko-fi ☕
+        </a>
+        <a href="https://chromewebstore.google.com" class="btn btn-primary nav-download">
+          download free
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="hero-tag">🐱 free chrome extension</div>
+        <h1>a tiny cozy cat that lives in your browser</h1>
+        <p class="hero-sub">
+          kittygotchi wanders around while you work, naps when you're idle,
+          and begs for fish when hungry. completely free.
+        </p>
+        <div class="hero-cta">
+          <a href="https://chromewebstore.google.com" class="btn btn-primary">
+            add to chrome — it's free
+          </a>
+          <a href="https://ko-fi.com/kittygotchi" target="_blank" rel="noopener" class="btn btn-outline">
+            support on ko-fi ☕
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <div class="hero-media-icon">🐱</div>
+        <span>cat in action</span>
+        <span style="font-size:11px;font-weight:600;opacity:0.6;">(screenshot / gif coming soon)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Features ─────────────────────────────────────────────────────────── -->
+  <section class="features">
+    <div class="container">
+      <p class="section-label">✨ features</p>
+      <h2 class="section-title">what your cat gets up to</h2>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🐾</div>
+          <h3>wanders freely</h3>
+          <p>your cat roams around any webpage, sitting in corners and exploring while you browse.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">😴</div>
+          <h3>naps when you're idle</h3>
+          <p>leave your desk and come back to find them curled up asleep — just like a real cat.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🐟</div>
+          <h3>gets hungry</h3>
+          <p>happiness drains over time — feed them fish to see them happy again. don't neglect them.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Viral moments ─────────────────────────────────────────────────────── -->
+  <section class="moments">
+    <div class="container">
+      <p class="section-label">📸 shareable moments</p>
+      <h2 class="section-title">moments worth sharing</h2>
+
+      <div class="moments-grid">
+        <div class="moment-card">
+          <div class="moment-placeholder">😴</div>
+          <div class="moment-caption">cat falls asleep on your screen</div>
+        </div>
+
+        <div class="moment-card">
+          <div class="moment-placeholder">😭</div>
+          <div class="moment-caption">cat begs for fish 😭</div>
+        </div>
+
+        <div class="moment-card">
+          <div class="moment-placeholder">😲</div>
+          <div class="moment-caption">cat gets startled by rapid clicking</div>
+        </div>
+
+        <div class="moment-card">
+          <div class="moment-placeholder">💃</div>
+          <div class="moment-caption">cat does a happy dance after eating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Steam teaser ───────────────────────────────────────────────────────── -->
+  <section class="steam">
+    <div class="container">
+      <div class="steam-inner">
+        <div class="steam-badge">🎮 coming to steam</div>
+        <h2>something bigger is coming 🏠</h2>
+        <p>
+          we're building the full kittygotchi experience on steam — a cozy room
+          where your cats live, play, and collect items. wishlists coming soon.
+        </p>
+
+        <form
+          class="steam-form"
+          action="https://formspree.io/f/placeholder"
+          method="POST"
+          id="waitlist-form"
+        >
+          <input
+            class="steam-input"
+            type="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+            aria-label="Email address"
+          />
+          <button type="submit" class="steam-submit">notify me</button>
+        </form>
+        <p class="steam-note">no spam, just a ping when wishlists open 🐱</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">kittygotchi 🐱</div>
+        <div class="footer-made">made with 🤍</div>
+      </div>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="https://chromewebstore.google.com">download</a>
+        <a href="https://ko-fi.com/kittygotchi" target="_blank" rel="noopener">ko-fi</a>
+        <a href="https://twitter.com/kittygotchi" target="_blank" rel="noopener">twitter / x</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Formspree success / error feedback
+    const form = document.getElementById('waitlist-form');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('.steam-submit');
+      const original = btn.textContent;
+      btn.textContent = 'sending…';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' },
+        });
+        if (res.ok) {
+          btn.textContent = '✓ you\'re on the list!';
+          form.reset();
+        } else {
+          throw new Error();
+        }
+      } catch {
+        btn.textContent = 'try again';
+        btn.disabled = false;
+      }
+    });
+  </script>
+
+</body>
+</html>
