@@ -303,6 +303,12 @@ a { text-decoration: none; color: inherit; }
   border-bottom: 1px solid var(--border);
 }
 
+.moments-grid .moment-card:last-child {
+  grid-column: 1 / -1;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
 .moment-caption {
   padding: 14px 18px;
   font-size: 14px;
@@ -550,21 +556,21 @@ a { text-decoration: none; color: inherit; }
       <div class="moments-grid">
         <div class="moment-card">
           <div style="overflow:hidden; border-radius:12px;">
-            <img src="images/kitty starving.png" alt="cat begs for fish" style="width:100%; border-radius:12px;">
+            <img src="images/kitty starving.png" alt="cat begs for fish" style="width:100%; height:300px; object-fit:cover; object-position:center; border-radius:12px;">
           </div>
           <div class="moment-caption">cat begs for fish 😭</div>
         </div>
 
         <div class="moment-card">
           <div style="overflow:hidden; border-radius:12px;">
-            <img src="images/kittypic3.png" alt="cat gets startled" style="width:100%; border-radius:12px;">
+            <img src="images/kittypic3.png" alt="cat gets startled" style="width:100%; height:300px; object-fit:cover; object-position:center; border-radius:12px;">
           </div>
           <div class="moment-caption">cat gets startled 😱</div>
         </div>
 
         <div class="moment-card">
           <div style="overflow:hidden; border-radius:12px;">
-            <img src="images/kitty in box.png" alt="cat sits in a box" style="width:100%; border-radius:12px;">
+            <img src="images/kitty in box.png" alt="cat sits in a box" style="width:100%; height:300px; object-fit:cover; object-position:center; border-radius:12px;">
           </div>
           <div class="moment-caption">cat sits in a box 📦</div>
         </div>
